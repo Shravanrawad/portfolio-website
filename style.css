@@ -212,7 +212,7 @@ font-size: 18px;
     border: none;
     text-transform: capitalize;
     display: inline-block;
-    color: var(--white);
+    color: white;
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
