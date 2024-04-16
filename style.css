@@ -22,7 +22,7 @@
 }
 body {
     min-height: 100vh;
-    background-image: linear-gradient(to bottom right, var(--pink-light), var(--cyan-light));
+    background-color: black;
     font-size: 16px;
     background-attachment: fixed;
     color: var(--blue-dark);
@@ -54,7 +54,7 @@ img {
     vertical-align: middle;
 }
 section {
-    background-color: var(--white-alpha-25);
+    background-color: #222;
     border: 1px solid var(--white-alpha-40);
     min-height: calc(100vh - 70px);
     border-radius: 25px;
@@ -106,7 +106,7 @@ button {
     display: inline-block;
     border: 1px solid var(--white-alpha-40);
     border-radius: 30px;
-    /* color: var(--main-color); */
+    color: white;
     text-transform: capitalize;
     font-family: 500;
     font-family: inherit;
@@ -126,6 +126,7 @@ button {
 .home-img {
     width: 50%;
     padding: 15px;
+    color: white;
 }
 .home-text p {
 font-size: 18px;
@@ -169,6 +170,7 @@ font-size: 18px;
 .section-title h2 {
     font-size: 40px;
     text-transform: capitalize;
+    color: white;
 }
 
 .about-img {
@@ -178,6 +180,9 @@ font-size: 18px;
 .about-text {
     width: 60%;
     padding: 0 15px;
+}
+.about-text p {
+    color: white;
 }
 .about-img .img-box{
    background-color: var(--white-alpha-25);
@@ -193,6 +198,7 @@ font-size: 18px;
     text-transform: capitalize;
     font-size: 20px;
     margin: 20px 0;
+    color: white;
 }
 .about-text .skills {
     display: flex;
@@ -205,6 +211,7 @@ font-size: 18px;
     text-transform: capitalize;
     margin: 0 10px 10px 0;
     border-radius: 20px;
+    color: white;
 }
 .about-tabs .tab-item {
     padding: 2px 0;
@@ -256,7 +263,7 @@ font-size: 18px;
     width: 1px;
     top: 0;
     left: 5px;
-    background-color: var(--blue-dark);
+    background-color: white;
 }
 .about-text .tab-content {
     padding:  40px 0;
@@ -276,7 +283,7 @@ font-size: 18px;
     height: 11px;
     width: 11px;
     border-radius: 50%;
-    background-color: var(--blue-dark);
+    background-color: white;
     left: 0;
     top: 16px;
 }
@@ -285,11 +292,13 @@ font-size: 18px;
     color: var(--blue-dark);
     font-weight: 400;
     margin: 0 0 10px;
+    color: white;
 }
 .about-text .timeline-item h4{
     font-size: 18px;
     text-transform: capitalize;
     margin: 0 0 10px;
+    color: white;
 }
 .about-text .timeline-item h4 span{
     font-weight: 400;
@@ -315,6 +324,7 @@ font-size: 18px;
     font-size: 20px;
     text-transform: capitalize;
     margin: 20px 0;
+    color: white;
 }
 .portfolio-item-details {
     display: none;
@@ -379,17 +389,21 @@ ul {
     font-size: 25px;
     text-transform: capitalize;
     margin: 20px 0 15px;
+    color: white;
 }
 .pp-body .description {
     margin-bottom: 20px;
+    color: white;
 }
 .pp-body .general-info li {
     margin-bottom: 10px;
     font-weight: 500;
     text-transform: capitalize;
+    color: white;
 }
 .pp-body .general-info li span {
-    font-weight: 300;   
+    font-weight: 300;
+    color: white;   
 }
 .pp-body .general-info li a {
     text-transform: lowercase;
@@ -408,6 +422,7 @@ ul {
     color: var(--blue-dark);
     opacity: 0.8;
     font-weight: 300;
+    color: white;
 }
 .contact-form .input-control {
     display: block;
@@ -423,6 +438,7 @@ ul {
     color: var(--blue-dark);
     border: 1px solid transparent;
     transition: border-color 0.3s ease-in-out;
+    color: white;
 }
 .contact-form .input-control:focus {
     border-color: var(--white-alpha-40);
@@ -431,10 +447,12 @@ ul {
     height: 120px;
     resize: none;
     padding-top: 15px;
+    color: white;
 }
 .contact-info-item {
     margin: 0 0 30px;
     padding: 0 0 0 20px;
+    color: white;
 }
 .contact-info-item h3 {
     font-size: 20px;
@@ -452,6 +470,7 @@ ul {
     border: 1px solid var(--white-alpha-40);
     margin: 6px 4px 0 0;
     transition: all 0.3s ease;
+    color: white;
 }
 .contact-info-item .social-links a:hover {
     color: var(--white);
@@ -463,7 +482,7 @@ ul {
     border: none;
     border-radius: 50%;
     cursor: pointer;
-    background-color: var(--blue-dark);
+    background-color: #346473;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -493,6 +512,7 @@ ul {
 }
 .header.active .nav{
     visibility: visible;
+    background-color: #222;
 }
 .header .nav-toggler span {
     height: 2px;
@@ -592,6 +612,7 @@ ul {
     padding: 8px 15px;
     transition: color 0.3s ease;
     position: relative;
+    color: white;
 }
 .header .nav-inner ul li a:hover  {
     color: var(--blue-dark);
